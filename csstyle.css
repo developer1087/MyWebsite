@@ -1,0 +1,46 @@
+#hero-sec {
+    background-image: url(./assets/office-932926_1280.jpg);
+    background-size: cover;
+    background-position: 50%;
+
+    }
+
+#imavi {
+    color: white;
+    font-size: 150px;
+    font-weight: 600;
+    text-shadow:
+    3px 1px 4px rgb(50, 38, 38);   
+   
+}
+
+@media (max-width: 600px){
+    #imavi {
+        font-size: 60px;
+    }
+}
+
+#fullstack {
+    font-size: 40px;
+    background: rgba(333, 333, 333, .9);
+    width: 500px;
+}
+
+@media (max-width: 600px) {
+    #fullstack {
+        font-size: 28px;
+        width: 200px;
+    }
+    
+}
+.profile {
+    border-radius: 50%;
+}
+
+.iphon {
+    margin: 10px;
+}
+
+#skills img {
+    margin: 5px;
+}
